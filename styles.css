@@ -1,0 +1,348 @@
+/* Styles.css */
+body {
+  margin: 0;
+  background: rgba(204, 118, 2, 0.5);
+  font-family: sans-serif;
+  /* margin-top: 50px; */
+}
+
+nav {
+  background-color: rgb(175, 84, 21);
+  height: 50px;
+  color: white;
+  border-bottom: solid black 2px;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  display: block;
+  width: 115px;
+  line-height: 50px;
+  text-align: center;
+  margin-left: 5px;
+
+}
+
+nav ul li:hover{
+  background-color: rgb(223, 144, 34);
+  border-radius: 30px;
+}
+
+nav ul li.active {
+  background-color: rgb(223, 144, 34);
+  border-radius: 30px;
+  border: solid 1px black;
+}
+
+nav ul li.active:hover {
+  background-color: rgba(223, 144, 34, 0.5);
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  background-image: url(https://www.quickenloans.com/blog/wp-content/uploads/2012/07/Airplane-sunset.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#main {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.all {
+  border: solid 1px black;
+  text-align: center;
+  margin: 25px auto 25px auto;
+  padding: 15px;
+  width: 75%;
+  background-color: rgba(204, 118, 2, 0.2);
+  border-radius: 10px;
+}
+
+.all th {
+  padding: 10px;
+  border-bottom: solid 1px black;
+}
+
+.all tr td {
+  padding: 10px;
+  border: solid 1px black;
+}
+
+#flightButtons {
+  border: none;
+}
+
+#footer {
+  background-color: rgb(175, 84, 21);
+  color: white;
+
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: thin;
+
+  text-align: center;
+  line-height: 50px;
+
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.right {
+  float: right !important;
+}
+
+#rightSub {
+  font-size: 13px;
+  float: left !important;
+  width: 100px !important;
+}
+
+#selectFlight {
+  float: left;
+}
+
+table.credit {
+  display: block;
+  padding-top: 25px;
+  margin-left: 33%;
+}
+
+table.credit tbody tr td {
+  padding-left: 50px;
+}
+
+table.credit tbody tr td input {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 5px 5px 5px;
+}
+
+table.credit tbody tr td select {
+  width: 50%;
+  margin-left: 25%;
+}
+
+table.credit tbody tr td button {
+  background-color: rgb(223, 144, 34);
+  color: white;
+  border: solid 1px black;
+  margin-top: 15px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  margin-left: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: inline-block;
+}
+
+table.credit tbody tr td button:hover {
+  background-color: rgba(223, 144, 34, 0.5);
+}
+
+/* .credit label {
+  padding-right: 20px;
+}
+
+.credit input:nth-of-type(1) {
+  width: 15%;
+}
+
+.credit input {
+  width: 5%;
+} */
+
+table.forms {
+  display: block;
+  padding-top: 25px;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+table.forms tbody tr td {
+  padding-left: 50px;
+}
+
+table.forms tbody tr td input {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 5px 5px 5px;
+}
+
+table.forms tbody tr td select {
+  width: 50%;
+  margin-left: 25%;
+}
+
+table.forms tbody tr td button {
+  background-color: rgb(223, 144, 34);
+  color: white;
+  border: solid 1px black;
+  margin-top: 15px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  margin-left: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: inline-block;
+}
+
+table.forms tbody tr td button:hover {
+  background-color: rgba(223, 144, 34, 0.5);
+}
+
+#reset {
+  background-color: rgb(223, 144, 34);
+  color: white;
+  border: solid 1px black;
+  margin-top: 15px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  margin-left: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#reset:hover {
+  background-color: rgba(223, 144, 34, 0.5);
+}
+
+button.allButtons {
+  background-color: rgb(223, 144, 34);
+  color: white;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  margin-left: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: solid 1px black;
+}
+
+button.allButtons:hover {
+  background-color: rgba(223, 144, 34, 0.5);
+}
+
+#navigation {
+  margin: 0;
+  padding: 0;
+  z-index: 12;
+  /* top: 0;
+  position: fixed; */
+  width: 100%;
+  /* margin-bottom: 100px; */
+}
+
+.grid {
+  float: left;
+  width: 40%
+}
+
+.book {
+  background-color: rgb(223, 144, 34);
+  color: white;
+  border: none;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+.book a {
+  text-decoration: none;
+  color: white;
+
+}
+
+#right {
+  margin-top: 3%;
+  float: right;
+  width: 50%;
+}
+
+#overbooked {
+  clear: both;
+  text-align: center;
+  color: white;
+  background-color: rgba(204, 118, 2, 0.2);
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 5%;
+}
+
+#overbooked h4 a {
+  color: white;
+  text-decoration: none;
+}
+
+#overbooked h4 a:hover {
+  transition: .4s;
+  color: black;
+}
+
+#confSearch {
+  text-align: center;
+}
+
+#confSearch input {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 5px 5px 5px;
+}
+
+#confSearch button {
+  background-color: rgb(223, 144, 34);
+  color: white;
+  border: solid 1px black;
+  margin-top: 15px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
+}
+
+#confSearch button:hover {
+  background-color: rgba(223, 144, 34, 0.5);
+}
